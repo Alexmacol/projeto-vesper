@@ -21,6 +21,8 @@ Este projeto foi construído com um fluxo de trabalho apoiado em Inteligência A
 
 Essa abordagem teve como objetivo explorar um workflow moderno de desenvolvimento, unindo planejamento assistido por IA fora do editor com execução assistida por IA dentro dele.
 
+Consulte os documentos [`prd.md`](docs/prd.md) e [`DESIGN.md`](docs/DESIGN.md) para mais detalhes sobre requisitos e diretrizes visuais definidos antes da implementação.
+
 ## Funcionalidades Principais
 
 - **Hero em vídeo** com autoplay em loop, criando impacto visual imediato na abertura do site
