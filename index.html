@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Vesper | Arquitetura e Interiores</title>
+    <meta name="description" content="Studio Vesper - Arquitetura de interiores em São Paulo. Estética Quiet Luxury, precisão arquitetônica e design sofisticado por Alex Macol.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+
+    <!-- Header / Nav -->
+    <header class="site-header" id="header">
+        <div class="header-inner container-fluid">
+            <a href="#" class="logo">VESPER</a>
+            <nav class="desktop-nav">
+                <a href="#process">Processo</a>
+                <a href="#portfolio">Portfólio</a>
+                <a href="#about">Sobre</a>
+                <a href="#contact">Contato</a>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir Menu">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav-overlay" id="mobileNav">
+        <nav>
+            <a href="#process" class="mobile-link">Processo</a>
+            <a href="#portfolio" class="mobile-link">Portfólio</a>
+            <a href="#about" class="mobile-link">Sobre</a>
+            <a href="#contact" class="mobile-link">Contato</a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg-wrapper">
+            <video autoplay muted loop playsinline class="hero-bg-video">
+                <source src="src/assets/interior-dark-video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-content container reveal">
+            <h1 class="display-lg">O silêncio do<br>design de luxo.</h1>
+            <p class="body-lg hero-subtext">Arquitetura de interiores em São Paulo, pautada pela precisão e por uma estética atemporal. Onde o espaço respira e a arte comanda.</p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-ghost">Iniciar Projeto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process section-padding">
+        <div class="container process-grid">
+            <div class="process-text reveal">
+                <h2 class="headline-lg mb-lg">O Método Vesper</h2>
+                <div class="process-steps">
+                    <div class="step">
+                        <span class="label-sm step-number">01</span>
+                        <h3 class="headline-md">Imersão</h3>
+                        <p class="body-md text-silver">Compreendemos a essência do cliente, estudando o espaço não apenas como estrutura, mas como uma tela para a vida.</p>
+                    </div>
+                    <div class="step">
+                        <span class="label-sm step-number">02</span>
+                        <h3 class="headline-md">Concepção</h3>
+                        <p class="body-md text-silver">Desenvolvimento arquitetônico com rigor estético. A precisão dos materiais nobres encontra a harmonia das proporções.</p>
+                    </div>
+                    <div class="step">
+                        <span class="label-sm step-number">03</span>
+                        <h3 class="headline-md">Materialização</h3>
+                        <p class="body-md text-silver">A execução impecável do projeto. Acompanhamento rigoroso para garantir que a visão se torne uma realidade palpável.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="process-visual reveal">
+                <video muted playsinline preload="auto" class="process-video">
+                    <source src="src/assets/video-camadas.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section-padding bg-charcoal">
+        <div class="container">
+            <div class="portfolio-header reveal mb-lg">
+                <h2 class="headline-lg">Obras Selecionadas</h2>
+            </div>
+            <div class="portfolio-grid">
+                <a href="#" class="portfolio-card card-span-2 reveal">
+                    <img src="src/assets/projeto-sala-2.png" alt="Projeto Sala de Estar 2" loading="lazy">
+                    <div class="portfolio-caption">
+                        <span class="label-sm">Residencial</span>
+                        <h3 class="headline-md">Living Essencial</h3>
+                    </div>
+                </a>
+                <a href="#" class="portfolio-card reveal">
+                    <img src="src/assets/projeto-terracota.png" alt="Projeto Terracota" loading="lazy">
+                    <div class="portfolio-caption">
+                        <span class="label-sm">Penthouse</span>
+                        <h3 class="headline-md">Refúgio Terracota</h3>
+                    </div>
+                </a>
+                <a href="#" class="portfolio-card card-tall reveal">
+                    <img src="src/assets/projeto-banheiro.png" alt="Projeto Banheiro" loading="lazy">
+                    <div class="portfolio-caption">
+                        <span class="label-sm">Suíte Master</span>
+                        <h3 class="headline-md">Santuário Mineral</h3>
+                    </div>
+                </a>
+                <a href="#" class="portfolio-card card-wide reveal">
+                    <img src="src/assets/projeto-cozinha.png" alt="Projeto Cozinha" loading="lazy">
+                    <div class="portfolio-caption">
+                        <span class="label-sm">Gourmet</span>
+                        <h3 class="headline-md">Cozinha Monolítica</h3>
+                    </div>
+                </a>
+                <a href="#" class="portfolio-card reveal">
+                    <img src="src/assets/projeto-biblioteca.png" alt="Projeto Biblioteca" loading="lazy">
+                    <div class="portfolio-caption">
+                        <span class="label-sm">Corporativo</span>
+                        <h3 class="headline-md">Acervo Privado</h3>
+                    </div>
+                </a>
+                <a href="#" class="portfolio-card card-span-2 reveal">
+                    <img src="src/assets/projeto-sala.png" alt="Projeto Sala" loading="lazy">
+                    <div class="portfolio-caption">
+                        <span class="label-sm">Residencial</span>
+                        <h3 class="headline-md">Galeria Urbana</h3>
+                    </div>
+                </a>
+                <a href="#" class="portfolio-card card-wide reveal" style="grid-column: 1 / -1;">
+                    <img src="src/assets/projeto-quarto.png" alt="Projeto Quarto" loading="lazy">
+                    <div class="portfolio-caption">
+                        <span class="label-sm">Residencial</span>
+                        <h3 class="headline-md">Descanso Noturno</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container about-grid">
+            <div class="about-text reveal">
+                <h2 class="headline-lg">Alex Macol</h2>
+                <h3 class="label-sm text-silver mb-md mt-sm">Fundador & Diretor Criativo</h3>
+                <div class="about-content">
+                    <p class="body-lg mb-md">
+                        O Studio Vesper nasceu da necessidade de contrapor o excesso. Buscamos na arquitetura contemporânea e nas galerias de arte a inspiração para criar ambientes que falam através do silêncio.
+                    </p>
+                    <p class="body-md text-silver">
+                        Acreditamos que o luxo não grita; ele é percebido no peso de um material, na luz que delineia um móvel e na precisão matemática de uma planta bem resolvida. Nossa abordagem boutique garante que cada cliente seja o centro de uma obra singular.
+                    </p>
+                </div>
+            </div>
+            <div class="about-stat reveal">
+                <div class="stat-item mb-lg">
+                    <span class="label-sm text-silver block mb-sm">Base</span>
+                    <span class="body-lg">São Paulo, BR</span>
+                </div>
+                <div class="stat-item">
+                    <span class="label-sm text-silver block mb-sm">Foco</span>
+                    <span class="body-lg">Residencial High-End</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section-padding bg-charcoal">
+        <div class="container">
+            <h2 class="label-sm text-center mb-xl text-silver reveal">Vozes dos nossos clientes</h2>
+            <div class="testimonial-grid">
+                <blockquote class="testimonial-card reveal">
+                    <p class="body-lg mb-md">"O estúdio compreendeu exatamente o que queríamos: um ambiente sofisticado, porém acolhedor. A curadoria de arte transformou nossa casa."</p>
+                    <footer class="label-sm text-silver">Família Nogueira, São Paulo</footer>
+                </blockquote>
+                <blockquote class="testimonial-card reveal" style="transition-delay: 100ms;">
+                    <p class="body-lg mb-md">"O minimalismo do Vesper tem substância. O nível de detalhamento no desenho da marcenaria superou todas as nossas expectativas."</p>
+                    <footer class="label-sm text-silver">Ricardo S., Co-founder TechFin</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container contact-grid">
+            <div class="contact-info reveal">
+                <h2 class="headline-lg mb-md">Inicie uma<br>conversa</h2>
+                <p class="body-lg text-silver mb-xl">Projetos sob medida para residências e espaços comerciais de alto padrão. Atendemos com hora marcada.</p>
+                <div class="contact-links">
+                    <a href="https://wa.me/5511999999999" class="btn btn-ghost" target="_blank" rel="noopener">Falar no WhatsApp</a>
+                </div>
+            </div>
+            <div class="contact-form-wrapper reveal">
+                <form id="contactForm" class="contact-form">
+                    <div class="input-group">
+                        <label for="name" class="label-sm text-silver">Nome Completo</label>
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                    </div>
+                    <div class="input-group">
+                        <label for="email" class="label-sm text-silver">E-mail</label>
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                    </div>
+                    <div class="input-group">
+                        <label for="subject" class="label-sm text-silver">Interesse</label>
+                        <input type="text" id="subject" name="subject" placeholder=" ">
+                    </div>
+                    <button type="submit" class="btn btn-ghost submit-btn mt-md">Enviar Solicitação</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer bg-charcoal">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <span class="logo">VESPER</span>
+                <p class="label-sm text-silver mt-sm">&copy; 2026 Studio Vesper.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#" class="label-sm text-silver">Instagram</a>
+                <a href="#" class="label-sm text-silver">Pinterest</a>
+                <a href="#" class="label-sm text-silver">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
