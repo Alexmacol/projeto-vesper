@@ -1,6 +1,9 @@
 # Studio Vesper
 
-Landing page institucional para um estúdio de arquitetura e interiores de alto padrão, com estética Quiet Luxury. Apresenta processo, portfólio, sobre e contato em uma única página responsiva — desenvolvida com um fluxo de trabalho apoiado em IA, do planejamento à implementação (veja Processo de Desenvolvimento).
+Landing page institucional para um estúdio de arquitetura e interiores de alto padrão, com estética *Quiet Luxury*. Apresenta processo, portfólio, sobre e contato em uma única página responsiva — **desenvolvida com um fluxo de trabalho apoiado em IA**, do planejamento à implementação (veja [Processo de Desenvolvimento](#processo-de-desenvolvimento)).
+
+[![Prévia do projeto Vesper](src/assets/vesper_view.webp)](https://projeto-vesper.vercel.app/)
+*Clique na imagem para acessar o site publicado.*
 
 ## Sobre o Projeto
 
