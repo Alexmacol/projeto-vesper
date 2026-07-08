@@ -1,12 +1,22 @@
 # Studio Vesper
 
-Landing page institucional para um estúdio de arquitetura e interiores de alto padrão, com estética *Quiet Luxury*. Apresenta processo, portfólio, sobre e contato em uma única página responsiva.
+Landing page institucional para um estúdio de arquitetura e interiores de alto padrão, com estética Quiet Luxury. Apresenta processo, portfólio, sobre e contato em uma única página responsiva — desenvolvida com um fluxo de trabalho apoiado em IA, do planejamento à implementação (veja Processo de Desenvolvimento).
 
 ## Sobre o Projeto
 
 O Vesper é o site institucional do **Studio Vesper**, estúdio fictício de arquitetura de interiores sediado em São Paulo, criado por Alex Macol. A proposta visual é transmitir sofisticação através da simplicidade: paleta escura, tipografia serifada elegante (Bodoni Moda) combinada a uma sans-serif limpa (Montserrat), vídeos de fundo e uma navegação enxuta.
 
 A página foi estruturada em seções de rolagem única (*single page*), guiando o visitante por uma narrativa: primeiro o impacto visual do hero em vídeo, depois o método de trabalho do estúdio, o portfólio de obras selecionadas, a apresentação do fundador, depoimentos de clientes e, por fim, um formulário de contato.
+
+## Processo de Desenvolvimento
+
+Este projeto foi construído com um fluxo de trabalho apoiado em Inteligência Artificial, combinando ferramentas externas de planejamento com agentes de IA integrados ao editor de código:
+
+- **Google Stitch** foi utilizado na etapa de concepção para gerar os documentos `prd.md` (Product Requirements Document) e `design.md`, definindo respectivamente os requisitos funcionais do produto e as diretrizes visuais (paleta de cores, tipografia, estilo *Quiet Luxury*) antes do início da implementação.
+- **Agentes de IA no editor de código** foram responsáveis por interpretar os comandos dados com base nesses documentos, implementando a estrutura HTML, os estilos e os scripts a partir das especificações definidas no PRD e no design doc.
+- A condução do processo — definição de requisitos, revisão do design, ajustes finos e validação do resultado final — foi feita manualmente, com a IA atuando como ferramenta de aceleração dentro de um fluxo planejado.
+
+Essa abordagem teve como objetivo explorar um workflow moderno de desenvolvimento, unindo planejamento assistido por IA fora do editor com execução assistida por IA dentro dele.
 
 ## Funcionalidades Principais
 
@@ -20,7 +30,7 @@ A página foi estruturada em seções de rolagem única (*single page*), guiando
 - **Animações de entrada (*reveal*)** aplicadas aos elementos conforme o usuário rola a página
 - **Rodapé** com links para redes sociais
 
-## Tecnologias e Métodos
+## Tecnologias Utilizadas
 
 - **HTML5** semântico, organizando o conteúdo em `<header>`, `<section>` e `<footer>`
 - **CSS3** para estilização, layout em grid/flexbox e responsividade (arquivo `src/css/styles.css`)
